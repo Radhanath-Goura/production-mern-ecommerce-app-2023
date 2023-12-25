@@ -1,0 +1,36 @@
+{
+  "name": "ecommerce-app-2023",
+  "version": "1.0.0",
+  "description": "ecommerce rest api",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix  ./client",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Radhanath",
+  "license": "UDEMY",
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "bcrypt": "^5.1.1",
+    "braintree": "^3.20.0",
+    "colors": "^1.4.0",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.56.0",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "morgan": "^1.10.0",
+    "node.js": "^0.0.1-security",
+    "nodemon": "^3.0.1",
+    "react-hooks": "^1.0.1",
+    "react-hot-toast": "^2.4.1",
+    "slugify": "^1.6.6"
+  }
+}
